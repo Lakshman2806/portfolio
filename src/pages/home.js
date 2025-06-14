@@ -23,6 +23,8 @@ const Home = () => {
         height: "auto", // Allow full scrolling
         position: "relative",
         overflow: "visible", // Enable scrolling
+        fontFamily: "'Outfit', sans-serif", // Ensure consistent font
+
       }}
     >
       {/* Fixed Aurora Background (stays in place during scroll) */}
@@ -141,6 +143,7 @@ const Home = () => {
             marginBottom: "3rem",
             fontWeight: "bold",
             textAlign: "center",
+            fontFamily: "'Outfit', sans-serif", // Ensure consistent font
           }}
         >
           About Me
@@ -197,8 +200,8 @@ const Home = () => {
           >
             <TiltedCard
               imageSrc={dp}
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
+              altText="Lakshman"
+              captionText="Lakshman"
               containerHeight="300px"
               containerWidth="300px"
               imageHeight="300px"

@@ -21,6 +21,8 @@ const Education = () => {
         height: "auto", // Allow full scrolling
         position: "relative",
         overflow: "visible", // Enable scrolling
+        fontFamily: "'Outfit', sans-serif", // Ensure the font is applied
+        background: "linear-gradient(to bottom, #0a0a12, #131325)", // Gradient background
       }}
     >
       <div
@@ -34,15 +36,10 @@ const Education = () => {
         }}
       >
         <Particles
-          particleColors={["#ffffff", "#ffffff"]}
-          particleCount={300}
-          particleSpread={10}
+          particleColors={["#6366f1", "#8b5cf6", "#ffffff"]}
+          particleCount={200}
           speed={0.1}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          particleHoverFactor={1}
-          alphaParticles={false}
-          disableRotation={false}
+          particleBaseSize={80}
         />
       </div>
       <br />
@@ -185,26 +182,26 @@ const Education = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="May 2025"
+          date="July 2025 - Present"
           iconStyle={{ boxShadow: "none" }}
           icon={
             <img
-              src={iiithLogo}
+              src={walmartLogo}
               alt="IIITH Logo"
               style={{ width: "100%", height: "100%", borderRadius: "50%" }}
-              className="iiith-logo"
+              className="walmart-logo"
             />
           }
           shadow={true}
           dateClassName="text-white font-bold text-lg"
         >
           <h3 className="vertical-timeline-element-title">
-            International Institute of Information Technology, Hyderabad,IIITH
+            Walmart Global Tech
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Btech in Computer Science and Engineering
+            Software Development Engineer - II
           </h4>
-          <p>Finished Graduation with a CGPA of 7.87</p>
+          <p>Joined as a Software development engineer after PPO offer</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
 
