@@ -30,7 +30,7 @@ const projectsData = [
     title: "C Shell",
     tech: "C • OS • System Calls",
     description:
-      "Made a custom C shell from scratch using System calls in C with all the features of a standard shell such as ls, cd commands etc along with implementing discover command (searchesfor a file/directory) and auto complete .",
+      "Made a custom C shell from scratch using System calls in C with all the features of a standard shell such as ls, cd commands etc along with implementing discover command (searches for a file/directory) and auto complete .",
     image: cShell,
     github: "https://github.com/Lakshman2806/C_Shell",
   },

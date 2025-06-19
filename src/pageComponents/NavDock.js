@@ -1,6 +1,9 @@
 import Dock from "../components/Dock/Dock";
+import { useNavigate } from "react-router-dom";
 
 const NavDock = () => {
+  // Function to handle navigation
+  const navigate = useNavigate();
   return (
     <div
       style={{
@@ -16,17 +19,22 @@ const NavDock = () => {
           {
             icon: "🏠",
             label: "Home",
-            onClick: () => console.log("Home clicked"),
+            onClick: () => navigate("/"),
+          },
+          {
+            icon: "🎓",
+            label: "Education",
+            onClick: () => navigate("/education"),
           },
           {
             icon: "📁",
             label: "Projects",
-            onClick: () => console.log("Projects clicked"),
+            onClick: () => navigate("/projects"),
           },
           {
             icon: "📧",
             label: "Contact",
-            onClick: () => console.log("Contact clicked"),
+            onClick: () => navigate("/contact"),
           },
         ]}
       />
