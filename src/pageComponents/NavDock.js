@@ -24,17 +24,17 @@ const NavDock = () => {
           {
             icon: "🎓",
             label: "Education",
-            onClick: () => navigate("/education"),
+            onClick: () => navigate("/portfolio/education"),
           },
           {
             icon: "📁",
             label: "Projects",
-            onClick: () => navigate("/projects"),
+            onClick: () => navigate("/portfolio/projects"),
           },
           {
             icon: "📧",
             label: "Contact",
-            onClick: () => navigate("/contact"),
+            onClick: () => navigate("/portfolio/contact"),
           },
         ]}
       />

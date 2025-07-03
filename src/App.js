@@ -16,9 +16,9 @@ function App() {
 
         <Routes>
           <Route path="/portfolio" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/portfolio/education" element={<Education />} />
+          <Route path="/portfolio/projects" element={<Projects />} />
+          <Route path="/portfolio/contact" element={<ContactMe />} />
           {/* Add more routes as needed */}
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
