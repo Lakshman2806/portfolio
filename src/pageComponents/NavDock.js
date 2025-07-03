@@ -18,7 +18,7 @@ const NavDock = () => {
         items={[
           {
             icon: "🏠",
-            label: "Home",
+            label: "Home", 
             onClick: () => navigate("/portfolio"),
           },
           {
