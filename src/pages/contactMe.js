@@ -1,8 +1,10 @@
 import React from "react";
 import Particles from "../components/Particles/Particles";
 import GlitchText from "../components/GlitchText/GlitchText";
-import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaFileAlt, FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaTools, FaCode, FaServer } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiMongodb, SiMysql, SiRedux, SiMaterialui, SiCplusplus, SiC, SiGit, SiAmazonaws, SiLinux, SiNginx } from "react-icons/si";
+import sel from "../img/Selenium_Logo.png";
+import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaFileAlt, FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaTools, FaCode, FaServer, FaHtml5, FaCss3Alt, FaJava } from "react-icons/fa";
+import { SiTypescript, SiJavascript, SiMongodb, SiMysql, SiRedux, SiMaterialui, SiCplusplus, SiC, SiGit, SiAmazonaws, SiLinux, SiNginx, SiFastapi } from "react-icons/si";
+
 
 const ContactMe = () => {
   // Skill categories with their respective skills
@@ -14,8 +16,10 @@ const ContactMe = () => {
       skills: [
         { name: "React.js", icon: <FaReact /> },
         { name: "JavaScript", icon: <SiJavascript /> },
-        { name: "TypeScript", icon: <SiTypescript /> },
+        {name: "HTML", icon: <FaHtml5 /> },
+        { name: "CSS", icon: <FaCss3Alt /> },
         { name: "Redux", icon: <SiRedux /> },
+        { name: "Next.js", icon: <FaReact /> },
       ]
     },
     {
@@ -28,6 +32,7 @@ const ContactMe = () => {
         { name: "MySQL", icon: <SiMysql /> },
         { name: "Express", icon: <FaNodeJs /> },
         { name: "REST APIs", icon: <FaServer /> },
+        { name: "FastAPI", icon: <SiFastapi /> },
       ]
     },
     {
@@ -40,6 +45,7 @@ const ContactMe = () => {
         { name: "C", icon: <SiC /> },
         { name: "JavaScript", icon: <SiJavascript /> },
         { name: "SQL", icon: <FaDatabase /> },
+        {name: "Java", icon: <FaJava /> },
       ]
     },
     {
@@ -51,6 +57,7 @@ const ContactMe = () => {
         { name: "Docker", icon: <FaDocker /> },
         { name: "Linux", icon: <SiLinux /> },
         { name: "Nginx", icon: <SiNginx /> },
+        { name: "Selenium", icon: <FaTools /> },
       ]
     }
   ];

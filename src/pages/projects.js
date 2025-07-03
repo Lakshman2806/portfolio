@@ -46,7 +46,7 @@ const projectsData = [
   {
     id: 4,
     title: "Army DBMS",
-    tech: "ReactJS • NodeJS • MongoDB • Material UI",
+    tech: "MySQL • Python • CLI",
     description:"Built a Army DBMS with MySQL database and built a Python CLI environment to interact with the database. It allows users to perform CRUD operations on the database, including adding, updating, and deleting records.",
     image: Army,
     github: "https://github.com/Lakshman2806/Army-DBMS",

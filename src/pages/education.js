@@ -10,6 +10,7 @@ import iiithLogo from "../img/iiith.jpeg";
 import confiscoreLogo from "../img/confiscore.jpeg";
 import walmartLogo from "../img/walmart_logo.jpeg";
 import taLogo from "../img/TA.png";
+import ctop from "../img/ctopico.png";
 
 const Education = () => {
   return (
@@ -92,10 +93,12 @@ const Education = () => {
           dateClassName="text-white font-bold text-lg"
         >
           <h3 className="vertical-timeline-element-title">
-            International Institute of Information Technology, Hyderabad,IIITH
+            <p>
+              International Institute of Information Technology, Hyderabad,IIITH
+            </p>
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Btech in Computer Science and Engineering
+            <p>Btech in Computer Science and Engineering</p>
           </h4>
         </VerticalTimelineElement>
 
@@ -179,7 +182,32 @@ const Education = () => {
             Prof Samyadeb Bhattacharya
           </p>
         </VerticalTimelineElement>
-
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="July 2024 - Nov 2024"
+          iconStyle={{ boxShadow: "none", backgroundColor: "white" }}
+          icon={
+            <img
+              src={ctop}
+              alt="ctop"
+              // make it larger
+              style={{ width: "100%", height: "100%", borderRadius: "50%" }}
+              className="ctop"
+            />
+          }
+          shadow={true}
+          dateClassName="text-white font-bold text-lg"
+        >
+          <h3 className="vertical-timeline-element-title">BTP Project - ctOP</h3>
+          <h4 className="vertical-timeline-element-subtitle">Developer</h4>
+          <p>
+            Worked at the Smart City Research Center, IIIT Hyderabad, where I
+            improved and tested the ctOP platform. I updated the UI, added a
+            subscriptions feature on both the frontend and backend, moved the
+            system from OM2M to Mobius, tested it using SQLite3, and prepared a
+            test report.
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="July 2025 - Present"

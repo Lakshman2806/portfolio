@@ -9,7 +9,6 @@ import ScrollReveal from "../components/ScrollReveal/ScrollReveal";
 import TiltedCard from "../components/TiltledCard/TiltedCard";
 import dp from "../img/dp.jpg"; // Adjust the path as necessary
 
-
 const Home = () => {
   const handleAnimationComplete = () => {
     console.log("All letters have animated!");
@@ -24,7 +23,6 @@ const Home = () => {
         position: "relative",
         overflow: "visible", // Enable scrolling
         fontFamily: "'Outfit', sans-serif", // Ensure consistent font
-
       }}
     >
       {/* Fixed Aurora Background (stays in place during scroll) */}
@@ -42,7 +40,7 @@ const Home = () => {
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.7}
           amplitude={0.5}
-          speed={0.5}
+          speed={0.7}
           style={{
             width: "100%",
             height: "100%",
@@ -172,18 +170,17 @@ const Home = () => {
             }}
           >
             <p style={{ marginBottom: "1.5rem" }}>
-              I'm a passionate Computer Science enthusiast with a love for
-              solving complex problems through elegant code. My journey in tech
-              began with a curiosity about how things work internally, which
-              quickly evolved into a deep fascination with algorithms and
-              systems design.
+              I'm a passionate computer science enthusiast who loves solving
+              complex problems through code. I'm driven, curious about emerging
+              technologies, and excited to contribute to the field’s growth in
+              my own way.
             </p>
 
             <p style={{ marginBottom: "1.5rem" }}>
-              I’m a competitive person who enjoys solving problems. I’m really
-              interested in how computer science and engineering are growing,
-              and I’m excited to be part of that progress and contribute in my
-              own way.
+              Outside of Academics, I enjoy playing sports, especially cricket
+              and chess. I also play quite a few video games. I am also
+              interested in exploring the world of AI and machine learning, and
+              I am always eager to learn new skills and technologies.
             </p>
           </div>
 
