@@ -19,7 +19,7 @@ const NavDock = () => {
           {
             icon: "🏠",
             label: "Home",
-            onClick: () => navigate("/"),
+            onClick: () => navigate("/portfolio"),
           },
           {
             icon: "🎓",
