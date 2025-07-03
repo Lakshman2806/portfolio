@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9f10e890.css",
+    "main.js": "/portfolio/static/js/main.83dff795.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/ctop.jpeg": "/portfolio/static/media/ctop.992b85ae864593e55bb7.jpeg",
+    "static/media/dp.jpg": "/portfolio/static/media/dp.9c0ca2d2c3a1c8bc32e7.jpg",
+    "static/media/c_shell.png": "/portfolio/static/media/c_shell.c295a4d9bdd25fe71491.png",
+    "static/media/Selenium_Logo.png": "/portfolio/static/media/Selenium_Logo.8acd00a91ebc15e2633e.png",
+    "static/media/greddit.png": "/portfolio/static/media/greddit.a0554de2258deb1761c5.png",
+    "static/media/smai.jpg": "/portfolio/static/media/smai.b68e3f1610af6cefa699.jpg",
+    "static/media/Army.jpg": "/portfolio/static/media/Army.14110f4b05b0b9125cf4.jpg",
+    "static/media/iot.jpg": "/portfolio/static/media/iot.ed412f2034b6770edbf3.jpg",
+    "static/media/music.jpg": "/portfolio/static/media/music.b4fea53625993dc6be68.jpg",
+    "static/media/project_review.png": "/portfolio/static/media/project_review.5bc3f0c5e7268fd96d66.png",
+    "static/media/schoolLogo.png": "/portfolio/static/media/schoolLogo.91092ccbbc10d4bcc6d9.png",
+    "static/media/ytParty.png": "/portfolio/static/media/ytParty.ae4d2df9944021f5eceb.png",
+    "static/media/ctopico.png": "/portfolio/static/media/ctopico.cf619a3243e8bf2375e9.png",
+    "static/media/iiith.jpeg": "/portfolio/static/media/iiith.43e30a214a813952a5c9.jpeg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.9f10e890.css.map": "/portfolio/static/css/main.9f10e890.css.map",
+    "main.83dff795.js.map": "/portfolio/static/js/main.83dff795.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f10e890.css",
+    "static/js/main.83dff795.js"
+  ]
+}
